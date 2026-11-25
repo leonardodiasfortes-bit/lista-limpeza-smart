@@ -24,7 +24,7 @@ export default function Layout({ activeTab, setActiveTab, children, onEndPresent
   return (
     <div className="min-h-full flex flex-col bg-bg text-ink">
       <header className="sticky top-0 z-40 bg-white border-b-2 border-slate-200 shadow-sm">
-        <div className="max-w-4xl mx-auto px-4 pt-4 pb-2 flex items-center gap-3">
+        <div className="max-w-4xl mx-auto px-4 pt-16 pb-2 flex items-center gap-3">
           <div className="bg-emerald text-white rounded-2xl p-2.5">
             <Sparkles size={28} />
           </div>

@@ -38,7 +38,7 @@ export default function Onboarding() {
   }
 
   return (
-    <div className="min-h-full bg-bg text-ink flex flex-col items-center px-4 py-8">
+    <div className="min-h-full bg-bg text-ink flex flex-col items-center px-4 pt-16 pb-8">
       <div className="w-full max-w-2xl">
         <div className="flex justify-end mb-4">
           <button
