@@ -6,8 +6,8 @@ export default function SlideShell({ step, totalSteps, children }) {
   }, [])
 
   return (
-    <div className="h-screen w-screen overflow-hidden bg-gradient-to-br from-slate-50 via-white to-emerald-50 flex flex-col">
-      <div className="flex-1 min-h-0 flex flex-col justify-center px-6 md:px-16 py-4 max-w-6xl mx-auto w-full">
+    <div className="min-h-screen w-full overflow-y-auto bg-gradient-to-br from-slate-50 via-white to-emerald-50 flex flex-col">
+      <div className="flex-1 min-h-0 flex flex-col justify-center px-6 md:px-16 py-6 max-w-6xl mx-auto w-full">
         {children}
       </div>
       <div className="flex items-center justify-center gap-2 pb-6 shrink-0">
